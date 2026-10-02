@@ -1,0 +1,15 @@
+[tools]
+bun = "1"
+node = "22"
+
+[tasks.dev]
+run = "bb plugin dev"
+
+[tasks.test]
+run = "node --import tsx --test *.test.ts"
+
+[tasks.typecheck]
+run = "bunx --no-install tsc --noEmit"
+
+[tasks.build]
+run = "bb plugin build"
