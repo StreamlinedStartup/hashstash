@@ -1,8 +1,3 @@
----
-title: HashStash
-status: ready
----
-
 # HashStash
 
 Save prompts as Markdown files. Type `#` in any BB chat to find a prompt. Select it to insert its text, then edit before sending.
